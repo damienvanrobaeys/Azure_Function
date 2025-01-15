@@ -18,7 +18,7 @@ function Get-AzToken {
     return $Token   
 }
 
-If($Request.Headers.message -ne 'Iam_a_bi_more_secure')
+If($Request.Headers.message -ne 'Iam_a_bit_more_secure')
     {
         "Password not valid"
         EXIT
